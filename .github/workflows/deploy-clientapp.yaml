@@ -26,7 +26,7 @@ on:
       resourceGroupName:
         description: "Resource group name"
         required: true
-        default: "rg-severless"       
+        default: "myRG"       
       githubBranch:
         description: "Repo branch which want to deploy"
         required: true
