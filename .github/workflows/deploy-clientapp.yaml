@@ -67,8 +67,7 @@ jobs:
       - name: Gatsby build
         run: |
           cd src/ClientApp
-          command: npm install nx
-          npm install
+          npm install npx
           npx gatsby build
       - name: Enable compression at origin level
         run: |
