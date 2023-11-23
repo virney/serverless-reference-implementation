@@ -68,6 +68,7 @@ jobs:
         run: |
           cd src/ClientApp
           npm install
+          npm ls
           npx gatsby build
       - name: Enable compression at origin level
         run: |
