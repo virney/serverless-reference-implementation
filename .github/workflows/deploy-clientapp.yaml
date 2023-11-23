@@ -54,8 +54,6 @@ jobs:
       - name: Install ubuntu package dependencies
         run: |
            sudo apt-get install brotli --install-suggests --no-install-recommends -q --assume-yes
-           sudo apt-get install npm
-           sudo apt-get install npx
       - name: Configure azure tenant, client and api details
         run: |
           cd src/ClientApp
